@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+body{
+    background-image: url(../assets/bg2.jpg);
+    background-size: 100%;
+}
+
+
+
+form{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 25em;
+    border-radius: 1em;
+    padding: 20px;
+    margin: 18vh auto;
+    backdrop-filter: blur(10px);
+}
+
+form input ,select{
+    padding: 5px;
+}
+
+form .top {
+    width: 100%;
+    gap: 5px;
+}
+
+form .top input{
+    width: 100%;
+}
+
+form .bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bottom *{
+    margin: 5px 0 5px 0;
+}
