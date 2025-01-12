@@ -50,18 +50,19 @@ body{
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .navigation-bar ul{
     display: flex;
     background-color: white;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .navigation-bar .options ,.options a{
-    width: 200px;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     text-transform: uppercase;
     transition: all .2s;
     text-decoration: 0;
